@@ -10,7 +10,6 @@ Naming
     <st_file>       must exist and is the Smalltalk startup script
     <vm>            is the full path to the Pharo virtual machine
     <vm_options>    [optional] parameters that will be passed to the vm
-    <user>          user used to run the application
 END
     exit 1
 }
@@ -23,7 +22,6 @@ fi
 # vm=$app_home/pharo
 vm=/usr/bin/pharo-vm-nox
 # vm_options="--nodisplay --nosound"
-user=pharo
 
 ### COMMON NAMES - Modify only if needed
 app_name=$0
